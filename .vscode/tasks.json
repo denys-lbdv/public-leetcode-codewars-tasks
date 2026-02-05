@@ -1,0 +1,17 @@
+
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "clear-terminal",
+      "type": "shell",
+      "command": "node -e \"process.stdout.write('\\u001bc')\"",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "never",
+        "panel": "shared",
+        "clear": true
+      }
+    }
+  ]
+}
