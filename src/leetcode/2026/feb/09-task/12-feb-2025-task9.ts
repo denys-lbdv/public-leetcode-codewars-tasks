@@ -1,4 +1,4 @@
-function reverseByType(s: string): string {
+export function reverseByType(s: string): string {
   let letterPositions: number[] = [];
   let lettersArray: string[] = [];
   let symbolsArray: string[] = [];
@@ -24,8 +24,3 @@ function reverseByType(s: string): string {
   }
   return resultSring;
 }
-
-console.log(reverseByType("abcd"));
-console.log(reverseByType(")ebc#da@f("));
-console.log(reverseByType("!@#$%^&*()"));
-console.log(")(*&^%$#@!");

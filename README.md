@@ -58,3 +58,18 @@ Install 'tsx' to execute '.ts' file
 ```
 npm install -g tsx
 ```
+
+## Setup Playwrigt test
+
+```
+npm install @playwright/test
+npx playwright install
+```
+
+## Run Playwright test
+
+> npx playwright test --config=playwright.config.ts
+
+or
+
+> npm run test:unit
