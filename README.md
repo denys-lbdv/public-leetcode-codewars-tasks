@@ -1,7 +1,16 @@
 # public-leetcode-codewars-tasks
 
-The current repository contains the tasks solving from different sources  
 [![Unit tests](https://github.com/denys-lbdv/public-leetcode-codewars-tasks/actions/workflows/unit-tests.yml/badge.svg)](https://github.com/denys-lbdv/public-leetcode-codewars-tasks/actions/workflows/unit-tests.yml)
+
+The current repository contains solutions for tasks from different sources for programming practice and fun.
+
+## How to run unit tests
+
+> npm run test:unit
+
+or
+
+> npx playwright test --config=playwright.config.ts
 
 ## How to run separate tasks in '.ts' file
 
@@ -66,11 +75,3 @@ npm install -g tsx
 npm install @playwright/test
 npx playwright install
 ```
-
-## Run Playwright test
-
-> npx playwright test --config=playwright.config.ts
-
-or
-
-> npm run test:unit
