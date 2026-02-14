@@ -1,6 +1,7 @@
 # public-leetcode-codewars-tasks
 
-The current repository contains the tasks solving from different sources
+The current repository contains the tasks solving from different sources  
+[![Unit tests](https://github.com/denys-lbdv/public-leetcode-codewars-tasks/actions/workflows/unit-tests.yml/badge.svg)](https://github.com/denys-lbdv/public-leetcode-codewars-tasks/actions/workflows/unit-tests.yml)
 
 ## How to run separate tasks in '.ts' file
 
