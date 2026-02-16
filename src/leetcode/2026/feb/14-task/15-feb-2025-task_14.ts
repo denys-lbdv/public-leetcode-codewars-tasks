@@ -1,5 +1,6 @@
 export function findRepeatedDnaSequences(s: string): string[] {
   // Solution 2 more faster
+
   if (s.length < 10) return [];
 
   let processed = new Set<string>();
