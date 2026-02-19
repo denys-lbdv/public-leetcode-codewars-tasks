@@ -1,4 +1,4 @@
-import { removeDuplicates } from "../../../../src/leetcode/2026/feb/16-task/17-feb-2025-task_16";
+import { removeDuplicates } from "../../../../src/leetcode/2026/feb/16-task/17-feb-2026-task_16";
 import test, { expect } from "@playwright/test";
 
 test.describe("Remove Duplicates from Sorted Array", async () => {

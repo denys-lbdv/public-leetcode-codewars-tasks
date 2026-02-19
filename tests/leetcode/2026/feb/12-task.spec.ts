@@ -1,4 +1,4 @@
-import { letterCombinations } from "../../../../src/leetcode/2026/feb/12-task/13-feb-2025-task_12";
+import { letterCombinations } from "../../../../src/leetcode/2026/feb/12-task/13-feb-2026-task_12";
 import test, { expect } from "@playwright/test";
 
 test.describe("Letter Combinations of a Phone Number", async () => {

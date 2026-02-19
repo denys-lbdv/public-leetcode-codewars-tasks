@@ -1,5 +1,5 @@
 import { assert } from "node:console";
-import { findRepeatedDnaSequences } from "../../../../src/leetcode/2026/feb/14-task/15-feb-2025-task_14";
+import { findRepeatedDnaSequences } from "../../../../src/leetcode/2026/feb/14-task/15-feb-2026-task_14";
 import test, { expect } from "@playwright/test";
 
 test.describe("Repeated DNA Sequences", async () => {

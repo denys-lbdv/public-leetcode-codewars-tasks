@@ -1,4 +1,4 @@
-import { majorityElement } from "../../../../src/leetcode/2026/feb/13-task/14-feb-2025-task_13";
+import { majorityElement } from "../../../../src/leetcode/2026/feb/13-task/14-feb-2026-task_13";
 import test, { expect } from "@playwright/test";
 
 test.describe("Majority Element", async () => {

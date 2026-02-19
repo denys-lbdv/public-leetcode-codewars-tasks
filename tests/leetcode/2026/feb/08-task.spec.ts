@@ -1,4 +1,4 @@
-import { mirrorDistance } from "../../../../src/leetcode/2026/feb/08-task/11-feb-2025-task8.ts";
+import { mirrorDistance } from "../../../../src/leetcode/2026/feb/08-task/11-feb-2026-task8.ts";
 import test, { expect } from "@playwright/test";
 
 test.describe("Mirror Distance of an Integer", async () => {

@@ -1,4 +1,4 @@
-import { reverse } from "../../../../src/leetcode/2026/feb/11-task/12-feb-2025-task_11";
+import { reverse } from "../../../../src/leetcode/2026/feb/11-task/12-feb-2026-task_11";
 import test, { expect } from "@playwright/test";
 
 test.describe("Reverse Integer", async () => {

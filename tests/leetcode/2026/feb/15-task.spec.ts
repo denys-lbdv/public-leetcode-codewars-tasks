@@ -1,4 +1,4 @@
-import { lengthOfLastWord } from "../../../../src/leetcode/2026/feb/15-task/16-feb-2025-task_15";
+import { lengthOfLastWord } from "../../../../src/leetcode/2026/feb/15-task/16-feb-2026-task_15";
 import test, { expect } from "@playwright/test";
 
 test.describe("Length of Last Word", async () => {

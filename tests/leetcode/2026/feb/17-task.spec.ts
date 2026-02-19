@@ -1,4 +1,4 @@
-import { wordBreak } from "../../../../src/leetcode/2026/feb/17-task/18-feb-2025-task_17";
+import { wordBreak } from "../../../../src/leetcode/2026/feb/17-task/18-feb-2026-task_17";
 import test, { expect } from "@playwright/test";
 
 test.describe("Word Break", async () => {
