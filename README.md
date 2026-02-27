@@ -2,6 +2,10 @@
 
 [![Unit tests](https://github.com/denys-lbdv/public-leetcode-codewars-tasks/actions/workflows/unit-tests.yml/badge.svg)](https://github.com/denys-lbdv/public-leetcode-codewars-tasks/actions/workflows/unit-tests.yml)
 
+[Playwright report](https://denys-lbdv.github.io/public-leetcode-codewars-tasks/)
+
+---
+
 The current repository contains solutions for tasks from different sources for programming practice and fun.
 
 ## How to run unit tests
