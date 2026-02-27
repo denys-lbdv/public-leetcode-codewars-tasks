@@ -36,3 +36,13 @@ jobs:
           name: playwright-report
           path: playwright-report/
           retention-days: 30
+
+      # NOTE: It's available for all internet users!!!
+      # Publish to main branch
+      - name: Deploy report
+        uses: peaceiris/actions-gh-pages@v4
+        if: always() # Run even if tests fail
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./playwright-report/
+          publish_branch: main
