@@ -6,6 +6,6 @@ test.describe("Sleep", async () => {
     let startTime = Date.now();
     await sleep(100);
     let endTime = Date.now();
-    expect(endTime-startTime).toBeGreaterThan(100);
+    expect(endTime - startTime).toBeGreaterThanOrEqual(100);
   });
 });
