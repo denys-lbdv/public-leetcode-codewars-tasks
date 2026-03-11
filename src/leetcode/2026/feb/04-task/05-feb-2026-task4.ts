@@ -19,7 +19,7 @@ function longestCommonPrefix(strs: string[]): string {
   let prefixResult = "";
   let maxCount = 0;
   prefixesMap.forEach((value, key) => {
-    console.log(`${key} : ${value}`);
+    // console.log(`DEBUG ${key} : ${value}`);
     if (value > maxCount) {
       prefixResult = key;
       maxCount = value;
@@ -34,5 +34,5 @@ if (maxCount != strs.length) {
 }
 
 console.log(longestCommonPrefix(["flower", "flow", "flight"]));
-console.log(longestCommonPrefix(["dog","racecar","car"]));
-console.log(longestCommonPrefix(["a"]));
+// console.log(longestCommonPrefix(["dog","racecar","car"]));
+// console.log(longestCommonPrefix(["a"]));
