@@ -1,5 +1,5 @@
 ## Q2. Rotate String
-
+https://leetcode.com/problems/rotate-string/submissions/1973672127   
 
 Given two strings s and goal, return true if and only if s can become goal after some number of shifts on s.
 
