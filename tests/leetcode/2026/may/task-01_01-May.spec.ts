@@ -1,5 +1,5 @@
 import { expect, test } from "@playwright/test";
-import { repeatedNTimes } from "../../../../src/leetcode/2026/may/task-1_1-May/task-1_1-May";
+import { repeatedNTimes } from "../../../../src/leetcode/2026/may/task-01_01-May/task-1_1-May";
 
 test.describe("N-Repeated Element in Size 2N Array", async () => {
   test("N-Repeated Element in Size 2N Array case 1", async () => {
