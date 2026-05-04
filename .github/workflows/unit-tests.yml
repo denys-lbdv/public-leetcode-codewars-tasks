@@ -6,6 +6,7 @@ on:
     branches: [main, master]
     types: [opened, synchronize]
   workflow_dispatch:
+  # Schedule by cron is not working in GitHub action for now, need to run it via sending POST request with event from third party scheduler like a Jenkins
   schedule:
     - cron: "0 07 * * *"
 
