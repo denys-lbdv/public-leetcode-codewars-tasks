@@ -7,8 +7,12 @@ on:
     types: [opened, synchronize]
   workflow_dispatch:
   # Schedule by cron is not working in GitHub action for now, need to run it via sending POST request with event from third party scheduler like a Jenkins
+  # https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax#onschedule
+  # https://github.com/orgs/community/discussions/147369
   schedule:
     - cron: "0 07 * * *"
+    - cron: "0 08 * * *"
+      timezone: "Europe/Kyiv"
 
 jobs:
   test:
